@@ -61,7 +61,7 @@ bookmarksRouter
             rating
         };
 
-        bookmarks.push(bookmark);
+        store.bookmarks.push(bookmark);
 
         logger.info(`Bookmark with id ${id} created`);
 
